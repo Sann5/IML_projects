@@ -1,0 +1,6 @@
+library(vroom)
+library(tidyverse)
+data <- vroom(file = "~/ETH/2021_S/IML/IML_projects/task_1a/data/train.csv")
+pairs(data, )
+par(mar=c(1,1,1,1))
+data %>% distinct(x4)

@@ -3,14 +3,17 @@ library(vroom)
 library(tidyverse)
 library(tictoc)
 
+### Set working directory
+setwd(dir = "~/ETH/2021_S/IML/IML_projects/task_2/data/")
+
 ### Start timer
 tic("Runing time")
 
 ### Load data ###
-data <- vroom::vroom(file = "/Users/santiago/ETH/2021_S/IML/IML_projects/task_2/task2_k49am2lqi/train_features.csv",
+data <- vroom::vroom(file = "train_features.csv",
                      col_types = c(col_double()))
 
-### Make data samller to test idea ###
+### Make data smaller to test idea ###
 #data <- data %>% filter(pid %in% 1:500)
 
 ### Make data into long format ###
@@ -65,7 +68,7 @@ data <- data %>%
 
 ### Write data to output ###
 vroom_write(data, 
-            path = "/Users/santiago/ETH/2021_S/IML/IML_projects/task_2/data/train_features_imp.csv",
+            path = "train_features_imp.csv",
             delim = ",")
 
 toc()

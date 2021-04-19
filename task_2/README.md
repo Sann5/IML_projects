@@ -53,8 +53,9 @@ Implementation presents a series of subproblems:
 * **Set seed for probability estimates.**
 
 ## TODO
-* check for contiguity.
-* make more features.
-* perhaps look for pralellization options to decrease runtime. 
-* check how well the algo is doing, 
+* check for contiguity. **done**
+* make more features. **done**
+* perhaps look for pralellization options to decrease runtime. **no aparent way**
+* check how well the algo is doing, **done**
 * if its not doing very well we can think of doing CV to optimize the parameters (kernell parameter, weights and regularization constant).
+* make new 

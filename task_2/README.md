@@ -58,4 +58,5 @@ Implementation presents a series of subproblems:
 * perhaps look for pralellization options to decrease runtime. **no aparent way**
 * check how well the algo is doing, **done**
 * if its not doing very well we can think of doing CV to optimize the parameters (kernell parameter, weights and regularization constant).
-* make new 
+* make imputation.R run from the notebook
+* checkout the format of the output and adjust accrodingly

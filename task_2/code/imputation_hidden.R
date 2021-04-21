@@ -7,7 +7,7 @@ library(moments)
 ### Set wd
 setwd(dir = "/Users/santiago/ETH/2021_S/IML/IML_projects/task_2/data/")
 
-### Define names of the files to read to and to write to
+### Define names of the files to read and to write to
 file_to_read_from <- "hidden_data_file_name_here.csv"
 file_to_write_to <- "hidden_data_file_name_here_imp.csv"
 

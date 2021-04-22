@@ -7,6 +7,7 @@ task_2/
    │     ├── train_labels.csv * 
    │     └── test_features.csv *
    ├── code/
+   │     ├── previous_attempt_subtask1.ipynb
    │     ├── HGBC+Lasso.ipynb
    │     ├── preprocessing.R
    │     └── preprocessing_hidden.R
@@ -56,5 +57,6 @@ Run `HGBC+Lasso.ipynb`. This will run the classifications in subtask 1 and 2 and
 * **Inputs:** `data/train_features_imp.csv`, `data/test_features_imp.csv`. 
 * **Outputs:** `output/submission_HGBC_Lasso.zip`. 
 
-
+## Previous attempts
+We also include the code for a different method we tried to solve the subtask 1 using Binary Relevance (`code/previous_attempt_subtask1.ipynb`). The performance was comparable to the one of our final attempt using histogram based gradient boost clasifier, but the later was 0.003 times faster. 
 

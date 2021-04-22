@@ -10,7 +10,7 @@ library(tictoc)
 library(moments)
 
 ### Set wd <- change this to match the location of the task_2 repo on your computer
-setwd(dir = "/Users/santiago/ETH/2021_S/IML/IML_projects/task_2/data/")
+setwd(dir = "/Users/Usuari/Documents/UNIVERSITAT/MASTER_ETH/IntroToML/IML_projects/task_2/subThu18h/task_2/data/")
 
 ### Start timer
 tic("Runing time")

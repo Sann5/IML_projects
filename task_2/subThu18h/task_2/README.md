@@ -31,7 +31,7 @@ In a nutshell just change the working directory so it matches the location of `t
 
 ### 1. Imputation, feature engineering and normalisation. 
 
-Run `preprocessing.R`. This will summarise the original data creating several features which are then used for the classifications and regression. **Before you do, make sure to change line 8 of the code to specify the working directory.**
+Run `preprocessing.R`. This will summarise the original data creating several features which are then used for the classifications and regression. **Before you do, make sure to change line 13 of the code to specify the working directory.**
 
 ```
 ### Set wd <- change this to match the location of the task_2 repo on your computer
@@ -53,12 +53,12 @@ file_to_write_to <- "hidden_data_file_name_here_imp.csv"
 
 Run `main.ipynb`. This will run the classifications in subtask 1 and 2 and the regression for subtask 3. The output will be written to the `output/` directory. This notebook uses some pseudo randomly generated numbers so seeds are set in place to insure the reproducibility of the results. 
 
-### 2. Analysis of the results. 
-
-In the file `main.ipynb` there is also included a k-fold cross-validation analysis to evaluate the performance of our data preprocessing, classifiers and the regressor. 
 
 * **Inputs:** `data/train_features_imp.csv`, `data/test_features_imp.csv`. 
 * **Outputs:** `output/submission.zip`. 
 
+### 3. Analysis of the results. 
+
+In the file `main.ipynb` there is also included a k-fold cross-validation analysis to evaluate the performance of our data preprocessing, classifiers and the regressor. 
 
 

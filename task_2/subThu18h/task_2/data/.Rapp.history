@@ -1,0 +1,509 @@
+file.path(folder1)
+file.path('folder1','folder2')
+?dir.create
+dir.create("testdir")
+dir.create(file.path('testdir2','testdir3'), recursive=TRUE)
+unlink("testdir2", recursvie=TRUE)
+unlink("testdir2", recursive=TRUE)
+setwd()
+setwd(old.dir)
+unlink('testdir',recursive=TRUE)
+1:20
+pi:10
+15:1
+?':'
+seq(1,20)
+seq(0,10, by=0.5)
+my_seq <- seq(5,10,length=30)
+lenght(my_seq)
+length(my_seq)
+1:length(my_seq)
+seq(along.with=my_seq)
+swirl()
+open(swirl)
+start(swirl)
+library(swirl)
+swirl()
+1:20
+pi:10
+15:1
+?':'
+seq(1,20)
+seq(0,10,by=0.5)
+my_seq <- seq(5,10,length=30)
+length(my_seq)
+1:length(my_seq)
+seq(along.with=my_seq)
+seq_along(my_seq)
+rep(0,times=40)
+rep(c(0,1,2), times=10)
+rep(c(0,1,2), each=10)
+bye(swirl)
+bye()
+x <-2L
+class(x)
+x <- c(4,FALSE)
+class(x)
+open(rprog-data-quiz1_data.zip)
+open("rprog-data-quiz1_data.zip")
+zip.file.extract(file, zipname = "rprog-data-quiz1_data.zip", unzip = getOption("unzip"))
+unzip("rprog-data-quiz1_data.zip")
+unzip(rprog-data-quiz1_data.zip)
+unzip("rprog-data-quiz1_data.zip")
+temp <- tempfile()
+download.file("https://d396qusza40orc.cloudfront.net/rprog%2Fdata%2Fquiz1_data.zip")
+download.file("https://d396qusza40orc.cloudfront.net/rprog%2Fdata%2Fquiz1_data.zip", temp)
+con <- unzip(temp)
+con
+dat <- read.table(con, header=T, skip=2)
+dat
+con
+read(con)
+data(con)
+fileName <- "https://d396qusza40orc.cloudfront.net/rprog%2Fdata%2Fquiz1_data.zip"
+con1 <- unz(fileName, filename="a1.dat", open = "r")
+fileName <- "rprog-data-quiz1_data.zip"
+con1 <- unz(fileName, filename="rprog-data-quiz1_data.zip", open = "r")
+open(fileName)
+open("fileName")
+temp <- tempfile()
+download.file("https://d396qusza40orc.cloudfront.net/rprog%2Fdata%2Fquiz1_data.zip",temp)
+data <- read.table(unz(temp, "a1.dat"))
+data <- read.table(unz(temp))
+data <- read.table(unz(temp, "rprog-data-quiz1_data.zip"))
+unzip ("rprog-data-quiz1_data.zip", exdir = "./")
+unzip ("rprog-data-quiz3_data.zip", exdir = "./")
+unzip ("rprog-data-quiz4_data.zip", exdir = "./")
+unzip ("rprog-data-quiz2_data.zip", exdir = "./")
+dir.create("specdata")
+?list.files
+open("hw1_data2.csv")
+mydata = read.csv("hw1_data2.csv")
+dir.create("specdata")
+setwd("C:/MyDoc")
+setwd("/Users/User Name/Documents/R_programming")
+library("swirl")
+swirl()
+(0.5,55,-10,6)
+num_vect <- c(0.5, 55, -10, 6)
+tf <- (num_vect < 1)
+tf <- num_vect <1
+tf
+num_vect >= 6
+install.packages("Rcmdr")
+library(Rcmdr)
+install.packages("Rcmdr")
+library(Rcmdr)
+1+2
+x <- c(1,2,3,2,4,6,2,4,2,4,6,9,2,4,3)
+mean(x)
+hist(x)
+y <- c(9,2,3,4,2,1,4,2,3)
+x+y
+mean(y)
+hist(y)
+x <- c(ran)
+ran
+fran
+ran(x)
+x <- 2
+x
+x+1
+x <- x+1
+x
+x+y
+2x
+2*x
+2/x
+runif(10)
+x <- runif(100000)
+hist(x)
+x <- rnorm(100000)
+hist(x)
+hist(x,lines=200)
+hist(x, breaks=200)
+sd(x)
+mean(x)
+median(x)
+x
+source(/Users/Usuari/Downloads/HusoData.csv)
+source(Users/Usuari/Downloads/HusoData.csv)
+~/Downloads/HusoData.csv
+source(~/Downloads/HusoData.csv)
+setws
+long.	pes	Ca	Prot.	Fosf.	Sex122,08	11,72	2,93	7,96	4,23	M148,83	17,16	2,63	7,16	5,17	M135,87	12,45	2,1	4,76	7,36	M146,03	13,16	2,16	5,33	3,09	M125,93	13,88	2,95	5,59	4,07	M68,06	8,39	2,35	5,62	3,56	M136,59	14,44	2,52	5,98	3,48	M144,95	14,17	3,22	4,33	2,86	M150	16,13	3,04	6,41	5,51	M148,1	15,44	2,83	5,79	5,02	M109,36	9,09	2,33	3,99	4,77	F110,88	12,52	3,09	4,31	7,12	F115,03	9,33	1,91	5,3	5,86	F101,17	9,37	2,39	4,27	6,58	F126,54	10,52	2,54	4,98	6,78	F119,01	12,06	1,8	3,17	6,03	F111,38	12,3	2,39	2,99	7,6	F116,41	10,18	2,74	5,14	5,22	F137,91	11,36	2,27	4,41	4,21	F104,04	9,79	1,79	4,5	8,09	F
+x <- long.	pes	Ca	Prot.	Fosf.	Sex122,08	11,72	2,93	7,96	4,23	M148,83	17,16	2,63	7,16	5,17	M135,87	12,45	2,1	4,76	7,36	M146,03	13,16	2,16	5,33	3,09	M125,93	13,88	2,95	5,59	4,07	M68,06	8,39	2,35	5,62	3,56	M136,59	14,44	2,52	5,98	3,48	M144,95	14,17	3,22	4,33	2,86	M150	16,13	3,04	6,41	5,51	M148,1	15,44	2,83	5,79	5,02	M109,36	9,09	2,33	3,99	4,77	F110,88	12,52	3,09	4,31	7,12	F115,03	9,33	1,91	5,3	5,86	F101,17	9,37	2,39	4,27	6,58	F126,54	10,52	2,54	4,98	6,78	F119,01	12,06	1,8	3,17	6,03	F111,38	12,3	2,39	2,99	7,6	F116,41	10,18	2,74	5,14	5,22	F137,91	11,36	2,27	4,41	4,21	F104,04	9,79	1,79	4,5	8,09	F
+mydata <- read.table(long.	pes	Ca	Prot.	Fosf.	Sex122,08	11,72	2,93	7,96	4,23	M148,83	17,16	2,63	7,16	5,17	M135,87	12,45	2,1	4,76	7,36	M146,03	13,16	2,16	5,33	3,09	M125,93	13,88	2,95	5,59	4,07	M68,06	8,39	2,35	5,62	3,56	M136,59	14,44	2,52	5,98	3,48	M144,95	14,17	3,22	4,33	2,86	M150	16,13	3,04	6,41	5,51	M148,1	15,44	2,83	5,79	5,02	M109,36	9,09	2,33	3,99	4,77	F110,88	12,52	3,09	4,31	7,12	F115,03	9,33	1,91	5,3	5,86	F101,17	9,37	2,39	4,27	6,58	F126,54	10,52	2,54	4,98	6,78	F119,01	12,06	1,8	3,17	6,03	F111,38	12,3	2,39	2,99	7,6	F116,41	10,18	2,74	5,14	5,22	F137,91	11,36	2,27	4,41	4,21	F104,04	9,79	1,79	4,5	8,09	F)
+mydata <- read.table("Users/Usuari/Downloads/HusoData.csv")
+huso <- read.table("/Users/Usuari/Downloads/HusoData.csv", header=TRUE, sep=";", dec=",", strip.white=TRUE)
+huso
+mean(huso, "long.")
+mean(huso,"col=2")
+mean(huso)
+mean(huso,pes)
+mean(huso)
+library(rcmdr)
+library(Rcmdr)
+huso <- read.table("/Users/Usuari/Downloads/HusoData.csv")
+huso
+huso <- read.table("/Users/Usuari/Downloads/HusoData.csv", head=TRUE)
+huso
+install.packages("Rcmdr")
+defaults write org.R-project.R force.LANG en_US.UTF-8
+defaults write org.R-project.R force.LANG en_US.UTF-8#
+defaults write org.R-project.R force.LANG en_US.UTF-8
+org.R-project.R force.LANG en_US.UTF-8
+defaults write org.R-project.R force.LANG en_US.UTF-8
+install.packages("Rcmdr")
+library("Rcmdr")
+install("/var/folders/kg/0x0l8s7j7zlbnvr2309z79580000gn/T//RtmpAKTxah/downloaded_packages")
+library(Rcmdr)
+library(tcltk)
+library(splines)
+library(pbkrtet)
+install.packages("pbkrtest")
+library(rcmdr)
+library(Rcmdr)
+install.packages(minqa)
+install.packages("minqa")
+library(Rcmdr)
+huso
+Huso
+library(Rcmdr)
+Huso
+mean(Huso)
+min(Huso)
+Problema2
+library(Rcmdr)
+Problema2
+library(Rcmdr)
+HUSO
+Huso
+Boxplot(pes~Sex, data=Dataset, id.method="y", col=c('blue','red'))
+Boxplot(pes~Sex, data=Dataset, id.method="y", col=c('red','blue'))
+with(Problema2, Barplot(Num_Analisi, xlab="Num_Analisi", ylab="Frequency"), col='blue')
+x <- c(1,2,4)
+y <- c(3,1,7)
+x+y
+hist(x+y)
+x <- rnorm(19)
+x
+x <- rnorm(1000)
+x
+hist(x)
+x <- rnorm(10000000)
+hist(x)
+library(rcmdr)
+library(Rcmdr)
+0.339035^2
+3.39035^2
+library(Rcmdr)
+rcommander
+rcom
+Rcmdr
+library(Rcmdr)
+install.packages("https://www.bnlearn.com/releases/bnlearn_latest.tar.gz", repos = NULL, type = "source")
+install.packages("bnlearn")
+library(bnlearn)
+#Mariona Colomer Rosell#
+#
+#Libraries #
+library(bnlearn)#
+#Opening the file#
+filename = "/Users/Usuari/Documents/UNIVERSITAT/MASTER_ETH/CompStats/data.txt"#
+df <- read.table(filename, header=T, sep="\t")#
+head(df)
+#Mariona Colomer Rosell#
+#
+#Libraries #
+library(bnlearn)#
+#Opening the file#
+filename = "/Users/Usuari/Documents/UNIVERSITAT/MASTER_ETH/CompStats/data.txt"#
+df <- read.table(filename, header=T, sep="\t")#
+head(df)#
+#
+n.mle <- bn.fit(df, data = survey, method = "mle")#
+bn.mle
+#Mariona Colomer Rosell#
+#
+#Libraries #
+library(bnlearn)#
+#Opening the file#
+filename = "/Users/Usuari/Documents/UNIVERSITAT/MASTER_ETH/CompStats/data.txt"#
+df <- read.table(filename, header=T, sep="\t")#
+head(df)#
+#
+dag.gs <- gs(sachs, test = "cor")#
+narcs(dag.gs)#
+directed.arcs(dag.gs)#
+qgraph(dag.gs)
+#Mariona Colomer Rosell#
+#
+#Libraries #
+library(bnlearn)#
+#Opening the file#
+filename = "/Users/Usuari/Documents/UNIVERSITAT/MASTER_ETH/CompStats/data.txt"#
+data <- read.table(filename, header=T, sep="\t")#
+head(data)#
+#
+dag.gs <- gs(data, test = "cor")#
+narcs(dag.gs)#
+directed.arcs(dag.gs)#
+qgraph(dag.gs)
+hc_network <- hc(data)
+hc_network
+#Hill-Climbing Score-based structure learning algorithm#
+hc_network <- hc(data)#
+tree = model2network(hc_network)#
+graphviz.plot(tree, layout = "dot")
+graphviz.plot(hc_network, layout = "dot")
+install.packages("graphviz")
+install.packages("Rgraphviz")
+BiocManager::install()#
+BiocManager::install(c("graph", "Rgraphviz", "RBGL"))#
+install.packages("gRain")
+library("Rgraphviz")
+install.packages("Rgraphviz")
+BiocManager::install(c("graph", "Rgraphviz"))
+BiocManager::install()
+BiocManager
+if (!requireNamespace("BiocManager", quietly = TRUE))#
+    install.packages("BiocManager")#
+BiocManager::install()
+BiocManager::install(c("graph", "Rgraphviz"))
+#Libraries #
+library(bnlearn)#
+library(Rgraphviz)#
+#Opening the file#
+filename = "/Users/Usuari/Documents/UNIVERSITAT/MASTER_ETH/CompStats/data.txt"#
+data <- read.table(filename, header=T, sep="\t")#
+head(data)#
+#
+#Hill-Climbing Score-based structure learning algorithm#
+hc_network <- hc(data)#
+#tree = model2network(hc_network)#
+graphviz.plot(hc_network, layout = "dot")
+#Tabu Score-based structure learning algorithm#
+tabu_network <- tabu(data)#
+graphviz.plot(tabu_network, layout = "dot")
+hc_network_fit <- bn.fit(hc_network)
+hc_network_fit <- bn.fit(hc_network, data)
+hc_network_fit
+bn.boot(data,  statistic=arcs, algorithm = "hc", R=400)
+unlist(bn.boot(data,  statistic=arcs, algorithm = "hc", R=400))
+boot.strength(data,  statistic=arcs, algorithm = "hc", R=400)
+boot.strength(data, algorithm = "hc", R=400)
+sign_arcs = boot_arcs[boot_arcs[, "strength"] >0.75,]
+boot_arcs = boot.strength(data, algorithm = "hc", R=400)#
+#
+sign_arcs = boot_arcs[boot_arcs[, "strength"] >0.75,]
+sign_arcs
+plot(sign_arcs)
+graphviz.plot(sign_arcs)
+avg.boot = averaged.network(boot_arcs, threshold = 0.75)#
+#
+graphviz.plot(avg.boot)
+#Mariona Colomer Rosell#
+#
+#Libraries #
+library(bnlearn)#
+library(Rgraphviz)#
+#
+#Opening the file#
+filename = "/Users/Usuari/Documents/UNIVERSITAT/MASTER_ETH/CompStats/data.txt"#
+data <- read.table(filename, header=T, sep="\t")#
+head(data)#
+#
+#Hill-Climbing Score-based structure learning algorithm#
+hc_network <- hc(data)#
+graphviz.plot(hc_network, layout = "dot")#
+hc_network_fit <- bn.fit(hc_network, data)#
+#Tabu Score-based structure learning algorithm#
+tabu_network <- tabu(data)#
+graphviz.plot(tabu_network, layout = "dot")#
+tabu_network_fit <- bn.fit(tabu_network, data)#
+#
+#Bootstrapping#
+boot_arcs = boot.strength(data, algorithm = "hc", R=400)#
+#
+#sign_arcs = boot_arcs[boot_arcs[, "strength"] >0.75,]#
+avg.boot = averaged.network(boot_arcs, threshold = 0.75)#
+graphviz.plot(avg.boot)
+graphviz.plot(hc_network, layout = "dot")
+graphviz.plot(tabu_network, layout = "dot")
+graphviz.plot(hc_network, layout = "dot")
+hc_network_fit$PIP3
+hc_network_fit$Plcg
+hc_network_fit$Plcg#
+hc_network_fit$PIP3#
+tabu_network_fit$Plcg#
+tabu_network_fit$PIP3
+setwd(dir = "/Users/Usuari/Documents/UNIVERSITAT/MASTER_ETH/IntroToML/IML_projects/task_2/subThu18h/task_2/data/")
+### Start timer#
+tic("Runing time")#
+#
+### Do for training and testing data#
+data_sets <- c("test", "train")#
+for (data_set in data_sets) {#
+  ### Make file name#
+  file_name <- paste0(data_set, "_features.csv")#
+  ### Load data ####
+  data <- vroom::vroom(file = file_name, col_types = c(col_double()))#
+  ### Make data smaller to test idea ####
+  #data <- data %>% filter(pid %in% 1:500)#
+  ### Make data into long format ####
+  data <- data %>% pivot_longer(cols = -c("pid", "Time", "Age"), #
+                        names_to = "feature",#
+                        values_to = "values")#
+  ### Get feature distribution information to normalize the patient sumety statistics####
+  feature_info <- data %>% #
+    filter(!is.na(values)) %>% #
+    group_by(feature) %>% #
+    summarise(feature_median = median(values),#
+              feature_sd = sd(values),#
+              feature_mean = mean(values),#
+              feature_range = max(values)-min(values))#
+  ### We summarize the data with our new function, append the feature dist info, and normalize ####
+  data <- data %>% #
+    group_by(pid, feature) %>% #
+    summarise(patient_mean = mean(values, na.rm = TRUE),                          # Estimate the patient summery statistics#
+              patient_median = median(values, na.rm = TRUE),#
+              patient_min = min(values, na.rm = TRUE),#
+              patient_max = max(values, na.rm = TRUE),#
+              patient_sd = sd(values, na.rm = TRUE),#
+              patient_range = max(values, na.rm = TRUE)-min(values, na.rm = TRUE),#
+              patient_skw = skewness(values, na.rm = TRUE),#
+              patient_kurt = kurtosis(values, na.rm = TRUE)) %>% #
+    left_join(y = feature_info,                                                   # Append to data feature statistics#
+              by = c("feature" = "feature")) %>% #
+    mutate(norm_mean = if_else(is.nan(patient_mean), #
+                              (feature_median - feature_mean) / feature_sd,       # Empty entries are given the standr. feature median.#
+                              (patient_mean - feature_mean) / feature_sd,#
+                               missing = NULL)) %>% #
+    mutate(norm_median = if_else(is.na(patient_median),                     #
+                                (feature_median - feature_mean) / feature_sd,     # Empty entries are given the standr. feature median.#
+                                (patient_median - feature_median) / feature_sd,#
+                                 missing = NULL)) %>% #
+    mutate(norm_min = if_else(is.infinite(patient_min), #
+                             (feature_median - feature_mean) / feature_sd,        # Empty entries are given the standr. feature median.#
+                             (patient_min - feature_mean) / feature_sd,#
+                              missing = NULL)) %>% #
+    mutate(norm_max = if_else(is.infinite(patient_max),                           #
+                             (feature_median - feature_mean) / feature_sd,        # Empty entries are given the standr. feature median.#
+                             (patient_max - feature_mean) / feature_sd,#
+                              missing = NULL)) %>% #
+    mutate(norm_sd = if_else(is.na(patient_sd), #
+                             0,                                                   # Empty entries are given the 0 spread.#
+                             patient_sd / feature_sd,#
+                             missing = NULL)) %>% #
+    mutate(norm_range = if_else(is.infinite(patient_range), #
+                                0,                                                # Empty entries are 0 range.#
+                                patient_range / feature_range,#
+                                missing = NULL)) %>% #
+    mutate(skw = if_else(is.nan(patient_skw), #
+                              0,                                                  # Empty entries are 0 skw.#
+                              patient_skw,#
+                              missing = NULL)) %>% #
+    mutate(kurt = if_else(is.nan(patient_kurt), #
+                              0,                                                  # Empty entries are 0 kurt.#
+                              patient_kurt,#
+                              missing = NULL))#
+  ### Make data into n x m format ####
+  data <- data %>% #
+    select(pid, feature, norm_mean, norm_median, norm_min, norm_max, norm_sd, norm_range, skw, kurt) %>% #
+    pivot_wider(id_cols = pid,#
+                names_from = feature,#
+                values_from = c(norm_mean, norm_median, norm_min, norm_max, norm_sd, norm_range, skw, kurt))#
+  ### Make file name#
+  file_name <- paste0(data_set, "_features_imp.csv")#
+  ### Write data to output ####
+  vroom_write(data, path = file_name, delim = ",")#
+}#
+#
+toc()
+library(vroom)#
+library(tidyverse)#
+library(tictoc)#
+library(moments)
+### Start timer#
+tic("Runing time")#
+#
+### Do for training and testing data#
+data_sets <- c("test", "train")#
+for (data_set in data_sets) {#
+  ### Make file name#
+  file_name <- paste0(data_set, "_features.csv")#
+  ### Load data ####
+  data <- vroom::vroom(file = file_name, col_types = c(col_double()))#
+  ### Make data smaller to test idea ####
+  #data <- data %>% filter(pid %in% 1:500)#
+  ### Make data into long format ####
+  data <- data %>% pivot_longer(cols = -c("pid", "Time", "Age"), #
+                        names_to = "feature",#
+                        values_to = "values")#
+  ### Get feature distribution information to normalize the patient sumety statistics####
+  feature_info <- data %>% #
+    filter(!is.na(values)) %>% #
+    group_by(feature) %>% #
+    summarise(feature_median = median(values),#
+              feature_sd = sd(values),#
+              feature_mean = mean(values),#
+              feature_range = max(values)-min(values))#
+  ### We summarize the data with our new function, append the feature dist info, and normalize ####
+  data <- data %>% #
+    group_by(pid, feature) %>% #
+    summarise(patient_mean = mean(values, na.rm = TRUE),                          # Estimate the patient summery statistics#
+              patient_median = median(values, na.rm = TRUE),#
+              patient_min = min(values, na.rm = TRUE),#
+              patient_max = max(values, na.rm = TRUE),#
+              patient_sd = sd(values, na.rm = TRUE),#
+              patient_range = max(values, na.rm = TRUE)-min(values, na.rm = TRUE),#
+              patient_skw = skewness(values, na.rm = TRUE),#
+              patient_kurt = kurtosis(values, na.rm = TRUE)) %>% #
+    left_join(y = feature_info,                                                   # Append to data feature statistics#
+              by = c("feature" = "feature")) %>% #
+    mutate(norm_mean = if_else(is.nan(patient_mean), #
+                              (feature_median - feature_mean) / feature_sd,       # Empty entries are given the standr. feature median.#
+                              (patient_mean - feature_mean) / feature_sd,#
+                               missing = NULL)) %>% #
+    mutate(norm_median = if_else(is.na(patient_median),                     #
+                                (feature_median - feature_mean) / feature_sd,     # Empty entries are given the standr. feature median.#
+                                (patient_median - feature_median) / feature_sd,#
+                                 missing = NULL)) %>% #
+    mutate(norm_min = if_else(is.infinite(patient_min), #
+                             (feature_median - feature_mean) / feature_sd,        # Empty entries are given the standr. feature median.#
+                             (patient_min - feature_mean) / feature_sd,#
+                              missing = NULL)) %>% #
+    mutate(norm_max = if_else(is.infinite(patient_max),                           #
+                             (feature_median - feature_mean) / feature_sd,        # Empty entries are given the standr. feature median.#
+                             (patient_max - feature_mean) / feature_sd,#
+                              missing = NULL)) %>% #
+    mutate(norm_sd = if_else(is.na(patient_sd), #
+                             0,                                                   # Empty entries are given the 0 spread.#
+                             patient_sd / feature_sd,#
+                             missing = NULL)) %>% #
+    mutate(norm_range = if_else(is.infinite(patient_range), #
+                                0,                                                # Empty entries are 0 range.#
+                                patient_range / feature_range,#
+                                missing = NULL)) %>% #
+    mutate(skw = if_else(is.nan(patient_skw), #
+                              0,                                                  # Empty entries are 0 skw.#
+                              patient_skw,#
+                              missing = NULL)) %>% #
+    mutate(kurt = if_else(is.nan(patient_kurt), #
+                              0,                                                  # Empty entries are 0 kurt.#
+                              patient_kurt,#
+                              missing = NULL))#
+  ### Make data into n x m format ####
+  data <- data %>% #
+    select(pid, feature, norm_mean, norm_median, norm_min, norm_max, norm_sd, norm_range, skw, kurt) %>% #
+    pivot_wider(id_cols = pid,#
+                names_from = feature,#
+                values_from = c(norm_mean, norm_median, norm_min, norm_max, norm_sd, norm_range, skw, kurt))#
+  ### Make file name#
+  file_name <- paste0(data_set, "_features_imp.csv")#
+  ### Write data to output ####
+  vroom_write(data, path = file_name, delim = ",")#
+}#
+#
+toc()

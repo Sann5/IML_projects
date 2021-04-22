@@ -13,9 +13,21 @@ task_2/
    ├── output/
    └── README.md
 ```
+## Library requirements
+In order to run the code you will need the following libraries. 
+
+### R
+Our imputation script in R requires libraries `"vroom", "tidyverse", "tictoc"` and `"moments"` but the code includes comands that check for the presence of the libraries and installs them if they are missing automatically. 
+
+### Python
+```
+pip install scikit-learn
+pip install pandas
+pip install numpy
+```
 
 ## How to run the code 
-In a nutshell just change the working directory so it matches the location of `task_2/data/` in your computer in `imputation.R` and then run `HGBC+Lasso.ipynb` (for a more detailed explanation see below). Make sure that the data is available under the correct directroy as indicated above in the ropository structure. Note that the data files (marked with a star * in the scheme above) will not be included with the submission, and therefore have to be put there manually before running anything. 
+In a nutshell just change the working directory so it matches the location of `task_2/data/` in your computer in `imputation.R`, run `imputation.R` and then run `HGBC+Lasso.ipynb` (for a more detailed explanation see below). Make sure that the data is available under the correct directroy as indicated above in the ropository structure. Note that the data files (marked with a star * in the scheme above) will not be included with the submission, and therefore have to be put there manually before running anything. Also make sure that you have the necesary libreries listed above. 
 
 ### 1. Imputation, feature engineering and normalisation. 
 

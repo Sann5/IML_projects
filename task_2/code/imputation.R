@@ -1,3 +1,8 @@
+### Check if libraries are installed
+list.of.packages <- c("vroom", "tidyverse", "tictoc", "moments")
+new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
+if(length(new.packages)) install.packages(new.packages)
+
 ### Load libraries ###
 library(vroom)
 library(tidyverse)

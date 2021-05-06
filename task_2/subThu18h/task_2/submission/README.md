@@ -1,7 +1,7 @@
 # Task 2
 ## Repository structure
 ```
-task_2/
+submission/
    ├── data/
    │     ├── train_features.csv *
    │     ├── train_labels.csv * 
@@ -28,7 +28,7 @@ pip install numpy
 ```
 
 ## How to run the code 
-In a nutshell just change the working directory so it matches the location of `task_2/data/` in your computer in `preprocessing.R`, run `preprocessing.R` and then run `main.ipynb` (for a more detailed explanation see below). Make sure that the data is available under the correct directory as indicated above in the repository structure. Note that the data files (marked with a star * in the scheme above) will not be included with the submission, and therefore have to be put there manually before running anything. Also make sure that you have the necessary libraries listed above. 
+In a nutshell just change the working directory so it matches the location of `submission/data/` in your computer in `preprocessing.R`, run `preprocessing.R` and then run `main.ipynb` (for a more detailed explanation see below). Make sure that the data is available under the correct directory as indicated above in the repository structure. Note that the data files (marked with a star * in the scheme above) will not be included with the submission, and therefore have to be put there manually before running anything. Also make sure that you have the necessary libraries listed above. 
 
 ### 1. Imputation, feature engineering and normalisation. 
 
@@ -36,13 +36,13 @@ Run `preprocessing.R`. This will summarise the original data creating several fe
 
 ```
 ### Set wd <- change this to match the location of the task_2 repo on your computer
-setwd(dir = "address_in_your_computer/task_2/data/")
+setwd(dir = "address_in_your_computer/submission/data/")
 ```
 
 * **Inputs:** `data/train_features.csv`, `data/test_features.csv`. 
 * **Outputs:** `data/train_features_imp.csv`, `data/test_features_imp.csv`. 
 
-We have also provided a `preprocessing_hidden.R` which runs the feature transformation, imputation and normalisation for a possible hidden data set. In case you use this, you will also have to change the working directory so it matches the location of `task_2/data/` in your computer, and additionally you will have to specify the name of the input and output files in lines 11 and 12 of `preprocessing_hidden.R`.
+We have also provided a `preprocessing_hidden.R` which runs the feature transformation, imputation and normalisation for a possible hidden data set. In case you use this, you will also have to change the working directory so it matches the location of `submission/data/` in your computer, and additionally you will have to specify the name of the input and output files in lines 11 and 12 of `preprocessing_hidden.R`.
 
 ```
 ### Define names of the files to read and to write to
@@ -62,9 +62,8 @@ Run `main.ipynb`. This will run the classifications in subtask 1 and 2 and the r
 
 In the file `main.ipynb` there is also included a k-fold cross-validation analysis to evaluate the performance of our data preprocessing, classifiers and the regressor. 
 
-### 4. Previous attempt of subtask1
-
-In the code folder, there is also the file  `previous_attempt_subtask1.ipynb` where we show a previous attempt for subtask1 where we used a Support Vector Machine as a classifier. However, the obtained F1_score for the SVM were lower than the F1_score obtained using the HBGC in the `main.ipynb` file.
+## Previous attempt of subtask 1
+We also include the code for a different method we tried to solve the subtask 1 using Binary Relevance (`code/previous_attempt_subtask1.ipynb`). The performance was comparable to the one of our final attempt using histogram based gradient boost clasifier, but the later was 0.003 times faster.
 
 
 
